@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Educacion</title>
+</head>
+<body>
+	<div>
+  	 <img src="LOGO mt.svg" alt="" width="135" height="151"/>
+	</div>
+	<div>
+	 <h1>Curriculum Vitae</h1>
+     <h3> Anal. TRAVERSI Mauro Marcelo</h3>
+	</div>
+	<div>
+	 <li><a href="inicio.html" title="Ed" target="new">Inicio</a></li>
+	 <li><a href="educacion.html" title="Ed" target="new">Educacion</a></li>
+	 <li><a href="Experiencia.html" title="Ed" target="new">Experiencia</a></li>
+	</div>
+	<div>
+  	 <table width="800" border="2">
+     <caption>
+      Educacion
+     </caption>
+      <tr>
+        <th scope="col">Año</th>
+        <th scope="col">Institucion</th>
+        <th scope="col">Lugar</th>
+        <th scope="col">¿Culmino?</th>
+      </tr>
+      <tr>
+        <td>1998</td>
+        <td>Inst.Paulo IV</td>
+        <td>Viedma</td>
+        <td>SI</td>
+      </tr>
+      <tr>
+        <td>1999</td>
+        <td>U.N.S. Anexo Juan XXIII</td>
+        <td>Bahia Blanca</td>
+        <td>SI</td>
+      </tr>
+      <tr>
+        <td>2001</td>
+        <td>Ministerio del Interior </td>
+        <td>Capital Federal</td>
+        <td>SI</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Open Inglish </td>
+        <td>EEUU</td>
+        <td>NO</td>
+      </tr>
+    </table>
+  </div>
+ <div>
+  <form autocomplete="on" name="carga curso">
+   <fieldset >
+    <legend>Agregar Estudios</legend>
+	   <p><label for="Ano">Ano</label>
+   	    <input type="number" name="year" value="2017" autocomplete="on" size="5px" required></p>
+   	    <label for="Institucion">Institucion </label> 
+   		<input id="inst" type="text" placeholder="Lugar donde estudio" size="50px" required name="text" value="">
+     <p><label for="Lugar">Lugar     </label>
+     <textarea name="lugar" type="text" placeholder="Localidad o pais" rows="10px" cols="40px" required  value=""></textarea></p>
+   	 <p><label for="Culmino">culmino</label>
+   	 <input type= "radio" name="culmino" checked > si <input name="culmino" type= "radio" > No </p>
+   	 <p><input type="submit" value="enviar"></p>
+   	 <p><input type="reset" value="Borar"></p>
+   </fieldset>
+  </form>
+ </div> 
+</body>
+</html>
